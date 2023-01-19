@@ -2,7 +2,7 @@
 
 describe("My First Test", () => {
 
-  it('should fill login form and redirect to homepage', () => {
+  it('login is success', () => {
     cy.visit("https://the-internet.herokuapp.com/login")
     // Fill the username
     cy.get("#username").type("tomsmith")  
